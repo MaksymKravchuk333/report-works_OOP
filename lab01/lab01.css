@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: grid;
+    grid-auto-flow:row ;
+}
+h1, h2 {
+    color: #333;
+}
+nav {
+    background: #eee;
+    padding: 10px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+}
+code {
+    font-family: Consolas, monospace;
+    color: #c7254e;
+}
+#nav_menu{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 0.5rem;   
+    justify-content: space-evenly;
+    align-items: center;
+}
+#goal p{
+    width:75rem;
+}
+#task ul{
+    display: grid;
+    grid-auto-flow: row;
+    grid-row-gap: 2rem ;
+}
+#task li{
+    display: grid;
+    grid-auto-flow: row;
+}
+}
